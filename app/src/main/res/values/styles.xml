@@ -1,0 +1,35 @@
+<resources>
+
+	<!-- Base application theme. -->
+	<style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+		<!-- Customize your theme here. -->
+		<item name="android:actionBarStyle">@style/ActionBar</item>
+		<!-- 设置 overflow 展开背景 -->
+		<item name="android:itemBackground">#303537</item>
+		<item name="android:actionOverflowButtonStyle">@style/ActionBarOverflowButtonStyle</item>
+		<!-- 设置 actionbar 没有分隔符 -->
+		<item name="android:actionBarDivider">@null</item>
+	</style>
+
+	<!-- - 隐藏 ActionBar 图标 -->
+	<style name="ActionBar" parent="android:Widget.ActionBar">
+		<item name="android:displayOptions">showTitle</item>
+		<item name="android:background">#303537</item>
+		<item name="android:titleTextStyle">@style/ActionTitleStyle</item>
+	</style>
+	<!-- - 隐藏 ActionBar 图标 -->
+
+	<!-- 设置 ActionBar Title 颜色 -->
+	<style name="ActionTitleStyle" parent="android:TextAppearance.Holo.Widget.ActionBar.Title">
+		<item name="android:textColor">#FFFFFF</item>
+	</style>
+	<!-- 设置 ActionBar Title 颜色 -->
+
+
+	<style name="ActionBarOverflowButtonStyle" parent="android:Widget.ActionButton.Overflow">
+		<item name="android:src">@drawable/actionbar_add</item>
+	</style>
+
+
+
+</resources>
