@@ -3,3 +3,4 @@
 用来练习git的代码仓库
 从命令行git fetch 
 从命令行git fetch 2
+git push origin master
